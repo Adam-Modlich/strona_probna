@@ -8,5 +8,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+body h1{
+  font-size: 10vh;
+}
+
+body h2{
+  font-size: 5vh;
+}
+
+
+
 
 
