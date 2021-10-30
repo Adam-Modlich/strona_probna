@@ -1,5 +1,21 @@
 @import 'variables.scss';
 
+h2, h1{
+  padding-top: 1.5em;
+  margin-top: -1.5em;
+  padding-bottom: 1.5em;
+  margin-bottom: -1em;
+  background-image: -webkit-linear-gradient(to left, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+  background-image: linear-gradient(to left, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+
+}
 
 .App {
   text-align: center;

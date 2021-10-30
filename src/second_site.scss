@@ -1,12 +1,33 @@
 @import 'variables.scss';
 
+
+
 .second_site{
     padding-top: 3%;
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 3%;
     background-color: rgb(194, 187, 187);
+    text-align: center;
 }
+
+.second_site h3{
+  
+    background-image: -webkit-linear-gradient(to left, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+
+    /* Create the gradient. */
+    background-image: linear-gradient(to left, #f64f59, #c471ed, #12c2e9);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    background-size: 100%;
+    background-repeat: repeat;
+    
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
 
 .second_site h2{
     line-height: 0.1;

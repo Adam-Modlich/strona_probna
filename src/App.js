@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import picture from '../src/Pictures/picture_of_me.jpg';
 import './App.scss';
-import './second_site.scss';
 
 function App() {
   return (
@@ -20,19 +19,6 @@ function App() {
           <h2>MODLICH ADAM</h2>
           <h1>WEBSITE DEVELOPER</h1>
         </header>
-      </div>
-      <div className="second_site">
-        <h2>Benefits</h2>
-        <h1>Your Perfect Project Partner</h1>
-        <div className="boxes_grid">
-          <div className="box about_me">
-            <h3><span>Website Developer </span><span id="content1">who will do it right</span></h3>
-          </div>
-          <div id="box1"><h3>Trips</h3></div>
-          <div id="box2">Coding</div>
-          <div id="box3">Cooking</div>
-          <div id="box4">Sport</div>
-        </div>
       </div>
     </div>
   );
