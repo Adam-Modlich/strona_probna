@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import picture from '../src/Pictures/picture_of_me.jpg';
-import './App.css';
-import './second_site.css';
+import './App.scss';
+import './second_site.scss';
 
 function App() {
   return (
@@ -26,9 +26,9 @@ function App() {
         <h1>Your Perfect Project Partner</h1>
         <div className="boxes_grid">
           <div className="box about_me">
-            <h3>Website Developer who will do it right</h3>
+            <h3><span>Website Developer </span><span id="content1">who will do it right</span></h3>
           </div>
-          <div id="box1">Trips</div>
+          <div id="box1"><h3>Trips</h3></div>
           <div id="box2">Coding</div>
           <div id="box3">Cooking</div>
           <div id="box4">Sport</div>
@@ -37,5 +37,8 @@ function App() {
     </div>
   );
 }
+
+
+
 
 export default App;

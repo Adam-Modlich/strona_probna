@@ -1,6 +1,10 @@
+@import 'variables.scss';
+
+
 .App {
   text-align: center;
   scroll-behavior: smooth;
+  cursor: default;
 }
 
 .begin_site{
@@ -12,11 +16,26 @@
   color: black;
   border-bottom: 0.1px solid black;
   list-style: none;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: space-between;
   padding: 1%;
   /* background-color: aqua; */
+}
+
+@media (min-width: $min_width){
+  .navbar{
+    display: flex;
+  }
+}
+
+@media (max-width: $max_width){
+  .navbar{
+    display: none;
+  }
+  header h1{
+    line-height:1.1;
+  }
 }
 
 .navbar li{
